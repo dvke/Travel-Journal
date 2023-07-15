@@ -1,9 +1,19 @@
 body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   font-family: Poppins;
 }
 
+/* Nav */
+
 nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,4 +30,63 @@ nav > h1 {
 
 nav > img {
   width: 100px;
+}
+
+/* Journal */
+.journal {
+  max-width: 600px;
+  display: flex;
+  gap: 1.7rem;
+  padding: 10px 20px;
+}
+
+.journal > img {
+  width: 35%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.journal-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journal-details > h1 {
+  margin: 0;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location > span {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.location img {
+  display: flex;
+  width: 1rem;
+}
+
+.journal-details a {
+  color: gray;
+}
+
+.duration {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .journal-details > h1 {
+    font-size: 1.75rem;
+  }
+  .location {
+    font-size: 0.75rem;
+  }
 }

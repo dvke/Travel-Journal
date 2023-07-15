@@ -4,7 +4,7 @@ import Journal from "./components/Journal";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Journal />
     </>
   );

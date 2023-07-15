@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar";
+import Journal from "./components/Journal";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Journal />
     </>
   );
 }

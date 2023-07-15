@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 0 black;
+}
+
+nav > h1 {
+  font-size: 1.8rem;
+  color: rgb(32, 128, 6);
+  /* background: -webkit-linear-gradient(blue, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+nav > img {
+  width: 100px;
+}

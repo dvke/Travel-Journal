@@ -6,7 +6,7 @@ export default function Journal(props) {
         <div className="location">
           <img src="./public/location-icon.png" alt="" />
           <span>{props.location}</span>
-          <a href={`${props.googleMapsUrl}`}>View on Google Maps</a>
+          👉<a href={`${props.googleMapsUrl}`}> View on Google Maps</a>
         </div>
         <h1>{props.title}</h1>
         <div className="duration">

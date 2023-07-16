@@ -111,3 +111,17 @@ a:hover {
     width: 40%;
   }
 }
+
+/* Footer */
+footer {
+  background: linear-gradient(90deg, rgb(251, 162, 98), rgb(130, 203, 221));
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+small {
+  font-weight: bold;
+}
+.emoji {
+  font-size: 1.5rem;
+}

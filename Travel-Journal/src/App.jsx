@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Journal from "./components/Journal";
+import Footer from "./components/Footer";
 import Data from "./data";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <>
       <Navbar />
       <div className="main">{journalComponent}</div>
+      <Footer />
     </>
   );
 }
